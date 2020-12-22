@@ -113,3 +113,14 @@ header.active .navbar-nav > li > a.active {
         margin-left: 20px !important;
     }
 }
+
+/* about page */
+.con{
+    color: #fa6501;
+}
+.head-wrap, .head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
