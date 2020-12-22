@@ -1,4 +1,115 @@
-/* Nav Button toggle */
+/* Nav Bar */
+header.active .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    top: 0;
+    padding: 10px 0 20px;
+    background: #6c7174;
+}
 .navbar-toggle{
     margin-right: 8px !important;
+}
+
+.navbar{
+    background: #dedede;
+}
+
+.navbar-brand{
+    padding: 0;
+    margin: 0 10px;
+}
+
+.navbar-brand > img {
+    position: relative;
+    z-index: 999;
+    width: 100px;
+    height: auto!important;
+    margin: 0 10px;
+}
+
+.navbar-nav{
+    margin: 10px 0;
+}
+
+.style-5 .navbar-nav > li > a {
+    color: #3d3d3d;
+    padding: 25px 20px;
+}
+
+.navbar-default .navbar-toggle{
+    margin: 20px 10px !important;
+}
+
+header.active .navbar-nav > li > a:hover,
+header.active .navbar-nav > li > a.active {
+  color: #fa6501 !important;
+}
+
+.tp-caption{
+  text-shadow: 2px 2px 4px #000000 !important;
+}
+
+/* Service Section */
+.sec-title h2 span{
+    color: rgb(253 101 1) !important;
+}
+
+.help-block h2{
+   color: #fa6501;
+}
+#cta{
+    background:linear-gradient(#fa6501, #792c14) !important;
+}
+#cta:hover{
+    background:linear-gradient(#792c14, #fa6501) !important;
+}
+.btn-primary.btn-black{
+    background: #e67450 !important;
+}
+::placeholder{
+    color: #eeab7f !important;
+}
+
+/* Testimonials */
+.testimonial-section .testimonial-box h2{
+    color: #fa6501;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active{
+    background: #fa6501;
+    border-color: #fa6501;
+}
+.ib-info{
+    padding-left: 0px !important;
+}
+@media only screen and (max-width: 400px){
+    .navbar-brand > img {
+        width: 60px;
+    }
+    .forcefullwidth_wrapper_tp_banner{
+        height: 50vh !important;
+    }
+    .tp-bgimg{
+        height: 50vh !important;
+    }
+    .finewide_medium_white{
+        margin-left: 20px !important;
+        font-size: 19px !important;
+        line-height: 19px !important;
+    }
+    .small_text{
+        margin-left: 20px !important;
+        font-size: 10px !important;
+        line-height: 10px !important;
+        margin-top: 10px !important;
+        
+    }
+   
+}
+
+@media only screen and (max-width: 768px){
+    .finewide_medium_white, .small_text{
+        margin-left: 20px !important;
+    }
 }
