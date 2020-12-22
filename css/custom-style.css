@@ -108,7 +108,7 @@ header.active .navbar-nav > li > a.active {
    
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 760px){
     .finewide_medium_white, .small_text{
         margin-left: 20px !important;
     }
@@ -125,10 +125,20 @@ header.active .navbar-nav > li > a.active {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+    text-align: center !important;
 }
 
 /* contact page */
 .information-list{
     color: #000000 !important;
+}
+
+/* service-page */
+.service-head{
+    display: block;
+    color: #020202;
+    font-style: normal;
+}
+.abt-us-img{
+    margin-top: 80px;
 }

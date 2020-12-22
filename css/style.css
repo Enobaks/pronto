@@ -607,7 +607,7 @@ p {
 font-family: 'lato', sans-serif;
 font-weight: 400;
 line-height: 29px;
-margin: 0 0 10px;
+margin: 0 0 30px;
 font-style: italic;
 color: #767676;
 }
@@ -971,7 +971,7 @@ margin-top: 9px;
 color: #fff;
 }
 
-.about-box {padding: 70px 0px; 	background:#fff  url(../images/service-l-img.jpg) no-repeat right 25px bottom;
+.about-box {padding: 70px 0px; 	background:#fff;
 }
 .about-box.ser-section{
 	position: relative;
@@ -2055,11 +2055,11 @@ margin-top: -35px;
 }
 .who-img{
 	overflow: visible;
-	padding-left: 65px;
+	/* padding-left: 65px; */
 }
 .img-full{
 	max-width: none;
-	width: auto !important;
+	width: 100% !important;
 }
 .who-img img:after{
 	width: 98%;
@@ -5590,11 +5590,10 @@ footer .copyright p{
   }
   
 }
-@media (max-width: 1024px) {{
+@media (max-width: 1024px) {
 
 .navbar-collapse, .navbar-collapse.collapse{
 	background: none;
-}
 }
 @media (max-width: 991px) {
 	#home-section {
@@ -5651,7 +5650,6 @@ footer .copyright p{
     width: 345px;
   }
   .page-banner-section {
-    margin-top: 177px;
     text-align: center;
   }
   .page-banner-section h2 {
