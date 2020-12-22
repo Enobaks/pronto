@@ -112,6 +112,9 @@ header.active .navbar-nav > li > a.active {
     .finewide_medium_white, .small_text{
         margin-left: 20px !important;
     }
+    .navbar-default .navbar-nav > li > a{
+        color: #ffffff;
+    }
 }
 
 /* about page */
@@ -123,4 +126,9 @@ header.active .navbar-nav > li > a.active {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+/* contact page */
+.information-list{
+    color: #000000 !important;
 }
