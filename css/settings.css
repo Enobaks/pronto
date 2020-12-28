@@ -186,8 +186,8 @@ color-stop(1, rgb(50,50,50)));display:table;max-width:100%;overflow:hidden;box-s
 .tp-bullets.simplebullets.round .bullet.selected{background:#fff;opacity:1;}
 .tparrows{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";-moz-opacity:1;-khtml-opacity:1;opacity:1;-webkit-transition:opacity 0.2s ease-out;-moz-transition:opacity 0.2s ease-out;-o-transition:opacity 0.2s ease-out;-ms-transition:opacity 0.2s ease-out;-webkit-transform:translateZ(5000px);-webkit-transform-style:flat;-webkit-backface-visibility:hidden;z-index:600;position:absolute;}
 .tparrows.hidearrows{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";-moz-opacity:0;-khtml-opacity:0;opacity:0;}
-/* .tp-leftarrow{z-index:100;cursor:pointer;position:absolute;background:url(../images/revolution-icons/large_left.png) no-Repeat top left;width:40px;height:40px;}
-.tp-rightarrow{z-index:100;cursor:pointer;position:absolute;background:url(../images/revolution-icons/large_right.png) no-Repeat top left;width:40px;height:40px;} */
+.tp-leftarrow{z-index:100;cursor:pointer;position:absolute;background:url(../images/revolution-icons/large_left.png) no-Repeat top left;width:40px;height:40px;}
+.tp-rightarrow{z-index:100;cursor:pointer;position:absolute;background:url(../images/revolution-icons/large_right.png) no-Repeat top left;width:40px;height:40px;}
 .tp-leftarrow.round{z-index:100;cursor:pointer;position:relative;background:url(../images/revolution-icons/small_left.png) no-Repeat top left;width:19px;height:14px;margin-right:0px;float:left;margin-top:0px;}
 .tp-rightarrow.round{z-index:100;cursor:pointer;position:relative;background:url(../images/revolution-icons/small_right.png) no-Repeat top left;width:19px;height:14px;margin-right:0px;float:left;margin-top:0px}
 .tp-leftarrow.round-old{z-index:100;cursor:pointer;position:relative;background:url(../assets/arrow_left.html) no-Repeat top left;width:26px;height:26px;margin-right:0px;float:left;margin-top:0px;}
