@@ -50,6 +50,10 @@ header.active .navbar-nav > li > a.active {
   text-shadow: 2px 2px 4px #000000 !important;
 }
 
+/* .cap-text{
+    top: 20%;
+} */
+
 /* Service Section */
 .sec-title h2 span{
     color: rgb(253 101 1) !important;
@@ -143,4 +147,22 @@ header.active .navbar-nav > li > a.active {
 }
 .abt-us-img{
     margin-top: 80px;
+}
+
+/* app store */
+.app{
+    color: #fa6501 !important;
+    font-size: 25px;
+    font-weight: 550px;
+}
+.store{
+    display:flex;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+.store img{
+    object-fit: scale-down;
+    height: 60px;
+    
 }

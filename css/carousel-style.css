@@ -1,0 +1,34 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.carousel-text{
+	width: fit-content;
+	left: 15% !important;
+	top: 18.25rem !important;
+}
+
+.carousel-text h2, .drivertext h2{
+	text-transform: uppercase;
+	text-shadow: 2px 2px 4px #000000 !important;
+	font-size: 42px;
+	font-weight: 800;
+}
+
+.drivertext{
+	left: 45% !important;
+	width: fit-content;
+	top: 18.25rem !important;
+}
+
+.play-store{
+	display:flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.play-store img{
+	object-fit: scale-down;
+    height: 60px;
+}
