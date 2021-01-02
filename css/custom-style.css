@@ -48,11 +48,13 @@ header.active .navbar-nav > li > a.active {
 
 .tp-caption{
   text-shadow: 2px 2px 4px #000000 !important;
+    top: 30% !important;
 }
 
-/* .cap-text{
-    top: 20%;
-} */
+.cap-text{
+    position: absolute;
+    top: 30% ;
+}
 
 /* Service Section */
 .sec-title h2 span{
@@ -109,19 +111,25 @@ header.active .navbar-nav > li > a.active {
         margin-top: 10px !important;
         
     }
-   
-}
-
-@media only screen and (max-width: 768px){
-    .finewide_medium_white, .small_text{
-        margin-left: 20px !important;
+    .cash-app{
+        right: -96px;
     }
-}
-@media only screen and (max-width: 760px){
     .navbar-default .navbar-nav > li > a{
         color: #ffffff;
     }
+   
 }
+
+@media only screen and (min-width: 768px){
+    .finewide_medium_white, .small_text{
+        margin-left: 20px !important;
+    }
+
+    .cash-app{
+        right: -212px;
+    }
+}
+
 
 /* about page */
 .con{

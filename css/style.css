@@ -1349,7 +1349,8 @@ white-space: nowrap;
 font-style: italic;
 }
 .tp-bgimg.defaultimg{
-	background-size: cover;
+  background-size: cover;
+  background-position: center !important;
 }
 .tp-bgimg.defaultimg::before {
     background: #00000080;
